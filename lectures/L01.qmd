@@ -1,0 +1,21 @@
+---
+title: "Syllabus, Background"
+lecture: 1
+format: revealjs
+---
+
+{{< include _definitions.qmd >}}
+
+# Welcome, Syllabus
+
+## Welcome to COURSE
+
+* I am: Mikael Vejdemo-Johansson
+* Office: 1S-208; Office Hours T Th 11am - noon
+* Lectures: T Th 12.20 - 2.15
+
+Course webpage: URL
+
+* All course details: syllabus, grading scheme, report requirements, schedule, ...
+* All additional course content: lecture slides, homework, ...
+* Linked from Blackboard

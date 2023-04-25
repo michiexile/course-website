@@ -1,0 +1,55 @@
+/* css styles */
+
+.bblue {
+  font-weight: bold;
+  color: SteelBlue;
+}
+
+.bpurple {
+    font-weight: bold;
+    color: Indigo;
+}
+
+.bred {
+    font-weight: bold;
+    color: Maroon;
+}
+
+.bgreen {
+    font-weight: bold;
+    color: DarkGreen;
+}
+
+
+
+.ignore {
+  color: Silver;
+}
+
+.right {
+  text-align: right;
+}
+
+
+
+.GCprimary {
+    color: #005dAA;
+}
+.GCsecondary1 {
+    color: #ec9c1d;
+}
+.GCsecondary2 {
+    color: #ffc30b;
+}
+.GCsecondary3 {
+    color: #8dc63f;
+}
+.GCsecondary4 {
+    color: #00a94f;
+}
+.GCsecondary5 {
+    color: #0093d0;
+}
+.GCsecondary6 {
+    color: #616365;
+}

@@ -1,0 +1,20 @@
+execute:
+  freeze: auto
+
+engine: knitr
+
+author: Mikael Vejdemo-Johansson
+
+format:
+  revealjs:
+    scrollable: true
+    slide-number: c/t
+    progress: true
+    navigation-mode: linear
+    code-fold: true
+    echo: true
+    error: false
+    warning: false
+    smaller: true
+
+

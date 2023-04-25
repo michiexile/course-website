@@ -1,0 +1,35 @@
+
+
+::: {.hidden}
+$$
+  \def\RR{{\mathbb{R}}}
+  \def\PP{{\mathbb{P}}}
+  \def\EE{{\mathbb{E}}}
+  \def\VV{{\mathbb{V}}}
+$$
+
+```{r setup-r, include=FALSE}
+library(reticulate)
+library(tidyverse)
+theme_set(theme_light())
+library(knitr)
+library(kableExtra)
+```
+
+```{python setup-py, include=FALSE}
+import numpy as np
+import scipy as sp
+import scipy.stats
+import statsmodels.api as sms
+from matplotlib import pyplot
+import plotly
+import plotly.express as px
+import plotly.graph_objects as pgo
+import pandas as pd
+import seaborn
+import seaborn.objects as so
+```
+
+:::
+
+<a href="`r str_replace(knitr::current_input(), "rmarkdown", "qmd")`">Source code for these slides</a>

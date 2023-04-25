@@ -1,0 +1,31 @@
+```{=html}
+<table class="table">
+<thead>
+<tr><th>Week #</th><th>Dates</th><th>Slides</th><th>Topic</th><th>Chapters</th><th>Homework</th></tr>
+</thead>
+<tbody>
+<% for (var i=0; i<items.length; i++) { %>
+<% var item = items[i] %>
+<% var lecturestring = item.lectures === undefined ? "" : item.lectures %>
+<% var lectures = JSON.parse(`[${lecturestring}]`) %>
+<tr>
+  <td><%= i+1 %></td>
+  <td><%= item.dates %></td>
+  <td>
+  <% 
+  for(lecture in lectures) {
+    var filename = `lectures/L${lectures[lecture].toString().padStart(2, '0')}.qmd`
+    %>
+      <a href="<%= filename %>"># <%= lectures[lecture] %></a><br />
+    <%
+  }
+  %></td>
+  <td><%= item.topic %></td>
+  <td><%= item.chapters %></td>
+  <td><%= item.homework %></td>
+</tr>
+<% } %>
+</tbody>
+</table>
+
+```

@@ -1,0 +1,13 @@
+---
+title: Course Schedule
+listing:
+  - id: weekly
+    contents: schedule.yml
+    template: schedule.ejs
+---
+
+## Weekly Course Schedule
+
+::: {#weekly}
+:::
+
